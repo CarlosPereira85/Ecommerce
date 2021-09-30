@@ -1,0 +1,115 @@
+html {
+  background-image: url(./Gaivota-png.png);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+
+body {
+  text-align: center;
+}
+/* start Header */
+
+.cabeca {
+  display: inline-block;
+}
+h1 {
+  background: rgb(102, 232, 206);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 232, 206, 1) 37%,
+    rgba(0, 222, 255, 1) 100%
+  );
+  text-align: center;
+  height: 50px;
+  padding-top: 10px;
+
+  border-top-right-radius: 20px;
+  border-left: 5px solid black;
+}
+img {
+  width: 1100px;
+  height: 900px;
+}
+/* end of hearde */
+
+/* start of section */
+section div img {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+p {
+  width: 200px;
+  margin: auto;
+}
+section div {
+  display: inline-block;
+  margin: 48px;
+  background: rgb(102, 232, 206);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 232, 206, 1) 37%,
+    rgba(0, 222, 255, 1) 100%
+  );
+  display: inline-block;
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 2%;
+}
+/* button set up */
+button {
+  background: rgb(102, 232, 206);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 232, 206, 1) 37%,
+    rgba(0, 222, 255, 1) 100%
+  );
+  font-family: sans-serif;
+  border-radius: 5px;
+  overflow: visible;
+  margin-top: 40px;
+}
+ button:hover {
+    color: blue;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+  }
+  /* end button set up */
+
+span {
+  color: blue;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: block; margin-top: 40px;
+}
+
+
+/* end of section  */
+
+
+/* Start footer */
+.thanks {
+  background: rgb(102, 232, 206);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 232, 206, 1) 37%,
+    rgba(0, 222, 255, 1) 100%
+  );
+  font-size: 50px;
+  display: inline-block;
+  border-bottom-right-radius: 20px;
+  border-top: 50px;
+}
+.thanks p {
+  width: 1100px;
+  border-bottom-right-radius: 20px;
+  border-left: 5px solid black;
+}
+
+.end {
+  margin-bottom: 1%;
+}
+
+/* end footer */
